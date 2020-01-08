@@ -1,0 +1,17 @@
+### OSX ###
+.DS_Store
+
+
+### Python ###
+__pycache__/
+target/
+
+
+### Django ###
+*.log
+*.pot
+*.pyc
+local_settings.py
+
+.env
+db.sqlite3

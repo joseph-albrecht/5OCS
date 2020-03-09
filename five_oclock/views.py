@@ -58,5 +58,4 @@ def isItFive(requests):
               11: "Solomon Islands",
               12: "Baker Islands"}[utc_offset]
 
-    # typee2 = utc_num + 1
     return  HttpResponse("It is 5oclock in  " + place)

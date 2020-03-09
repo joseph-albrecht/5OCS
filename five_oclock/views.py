@@ -1,8 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 import datetime
-import pytz
-import re
 
 def utcOffsetWhereTheHourIs(target_hour):
     """Return the UTC offset where the hour is currently the target_hour."""
